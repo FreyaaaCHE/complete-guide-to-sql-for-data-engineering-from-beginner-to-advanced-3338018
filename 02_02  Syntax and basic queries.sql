@@ -1,7 +1,7 @@
 create table categories(
 category_id serial primary key,
 name varchar(100)
-	)
+	);
 	
 CREATE TABLE Products (
   product_id SERIAL PRIMARY KEY, 
@@ -41,7 +41,7 @@ CREATE TABLE Customer (
 );
 
 
-INSERT INTO Categories (name) VALUES  ('Electronics'),  ('Clothing'),  ('Home and Kitchen')
+INSERT INTO Categories (name) VALUES  ('Electronics'),  ('Clothing'),  ('Home and Kitchen');
 
 
 INSERT INTO Products (name, price, description, tags, category_id,Supplier)
@@ -77,7 +77,7 @@ VALUES
     (1, 4, 2, 50.00, 4.0, 1.8, 1.5, '2023-04-05 12:15:00', '2023-04-07 18:20:00');
 	
 	
-select * from categories
-select * from Orders
-select * from Customer
-select * from Products
+select * from categories;
+select * from Orders;
+select * from Customer;
+select * from Products;
