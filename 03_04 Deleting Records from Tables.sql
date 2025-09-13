@@ -5,3 +5,6 @@ delete from public."FruitJuice";
 truncate public."FruitJuice";
 
 drop table public."FruitJuice";
+
+
+delete from orders where order_id = 10
