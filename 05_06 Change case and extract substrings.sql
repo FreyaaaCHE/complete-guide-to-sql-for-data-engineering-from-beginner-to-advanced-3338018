@@ -12,6 +12,11 @@ select left('Hello from Deepak', 5);
 
 select right('Hello from Deepak', 6);
 
+select position('Deepak' in 'Hello from Deepak');
+
 select position('Alice' in 'Hello from Deepak');
 
 select length('Hello from Deepak');
+
+
+select initcap(tags) from products;
