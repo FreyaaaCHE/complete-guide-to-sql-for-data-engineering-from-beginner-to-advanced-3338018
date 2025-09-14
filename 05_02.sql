@@ -1,4 +1,4 @@
-select abs(2.6);
+select abs(-2.6);
 
 select ceil(2.7);
 
